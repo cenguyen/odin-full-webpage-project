@@ -1,0 +1,150 @@
+body {
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+}
+
+ul {
+    list-style-type: none;
+    display: flex;
+    gap: 16px;
+}
+
+.header, .footer {
+    background-color: #1F2937;
+    color: #F9FAF8;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    padding: 18px;
+}
+
+.header-logo {
+    font-size: 24px;
+}
+
+.section-one {
+    background-color: #1F2937;
+    color: #F9FAF8;
+    padding: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+} 
+
+.text-container {
+    background-color: #1F2937;
+    color: #F9FAF8;
+    padding: 18px;
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+.text-container h1 {
+    font-size: 48px;
+    font-weight: extra-bold;
+    margin: 0;
+}
+
+.button-one {
+    background-color: #3882F6;
+    color: #F9FAF8;
+    font-size: 18px;
+    font-weight: bold;
+    border: 1px solid #3882F6;
+    padding: 8px 36px;
+    border-radius: 8px;
+}
+ 
+.img-container {
+    display: flex;
+    background-color: gray;
+    padding: 100px;
+}
+
+.section-two {
+    padding: 8px 36px;
+    text-align: center;;
+}
+
+.title-two {
+    text-align: center;
+    font-size: 32px;
+    margin-top: 32px;
+    margin-bottom: 32px;
+}
+
+.sec-two-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 32px;
+    margin-bottom: 32px;
+}
+
+img {
+    width: 100px;
+    height: 100px;
+    border: 3px solid #3882F6;
+    border-radius: 15%;
+}
+
+.section-three {
+    background-color: #E5E7EB;
+    padding: 75px;
+}
+
+.quote {
+    font-size: 36px;
+    font-weight: 100;
+    font-style: italic;
+}
+
+.quoter {
+    text-align: right;
+    font-weight: bold;
+}
+
+.section-four {
+    margin: 100px;
+    background-color: #3882F6;
+    padding: 42px 72px;
+    color: white;
+    border: 1px solid #3882F6;
+    border-radius: 15px;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.button-side {
+    display: flex;
+    justify-content: space-between;
+}
+
+
+
+.signup-button {
+    background-color: #3882F6;
+    color: #F9FAF8;
+    font-size: 18px;
+    font-weight: bold;
+    border: 1px solid #F9FAF8;
+    padding: 8px 36px;
+    border-radius: 8px;;
+}
+
+.call-text {
+    font-weight: bold;
+}
+
+.footer {
+    height: 72px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
